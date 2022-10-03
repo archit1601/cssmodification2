@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css template2</title>
+</head>
+<style>
+     .master{
+        margin: 10px;
+    }
+    .top-r{
+        margin-left: 16px;
+    }
+    .top-l{
+        text-align: right;
+    }
+   
+    .content{
+        background-color: #eeeeee;
+        height: 100%;
+    padding: 15px;
+    }
+    .duplicate{
+        display: flex;
+        text-align: center;
+    }
+    .empty{
+        background-color:#eee;
+        width: 70%;
+    height: 135px;
+    margin: auto;
+    }
+    .para1{
+        margin: 10%;
+    }
+    .subscribe{
+    background-color:#eee;
+    height: 80px;
+    text-align: center;
+    padding: 0% 15% 0% 15%;   
+    display: flex;
+    
+}
+    #pin{
+        height: 20px;
+    margin-top: 29px;
+    margin-left: 20px;
+    }
+    .but{
+        height: 26px;
+    margin: 29px;
+    width: 155px;
+    background-color:#288acf;
+    color: white;
+    margin-left: 10px;
+    }
+    .foot{
+        display: flex;
+       
+    }
+    .foot>div{
+       
+        width: 50%;
+    }
+    .copy{
+        margin-bottom: 20px;
+    }
+    .box{
+        width: 30%;
+    }
+</style>
+<body>
+    <!--below is master tag -->
+    <div class="master">
+        <div class="top">
+            <div class="top-l">
+                <a href="#">product</a>
+                <a style="margin: 10px;" href="#">solution</a>
+                <a href="#">company</a>
+                
+            </div>
+            <div class="top-r">
+                <h1>Sit logo</h1>
+                
+        </div>
+        <div class="content">
+            <div class="box">
+            <h1>we power ecommerce</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <button>learn more</button>
+        </div>
+        </div>
+        <!-- end of top div -->
+        <div class="duplicate">
+
+            <div class="copy">
+                <!-- first tag -->
+                <div class="empty"><p></p></div>
+              <h1>heading 1</h1>
+              <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum delectus adipisci laborum quod ea dignissimos voluptatum accusantium</p>
+              <a href="#" style="color: #0f0f0f;">learn more</a>
+            </div>
+            <!-- second tag -->
+            <div class="copy">
+                <div class="empty"><p></p></div>
+              <h1>heading 1</h1>
+              <p class="par1" style="margin:10%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum delectus adipisci laborum quod ea dignissimos voluptatum accusantium</p>
+              <a href="#" style="color: #0f0f0f;">learn more</a>
+            </div>
+            <!-- third tag -->
+            <div class="copy">
+                <div class="empty"><p></p></div>
+              <h1>heading 1</h1>
+              <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum delectus adipisci laborum quod ea dignissimos voluptatum accusantium</p>
+              <a href="#" style="color: #0f0f0f;">learn more</a>
+            </div>          
+        </div>
+        <!-- end of class="duplicate" -->
+        <div class="subscribe">
+            <h1>subscribe Us</h1>
+            <input type="text" id="pin">
+            <button class="but" href="#">SUBMIT</button>
+        </div>
+        <div class="foot">
+    
+            <div>copyright &#174; 2020</div>
+            <div style="text-align: right;">CEDCOSS Technologies</div>
+        </div>
+        <!-- end class="foot" -->
+    </div>
+    <!-- closing of master div tag -->
+</body>
+</html>
