@@ -8,7 +8,7 @@
 </head>
 <style>
      .master{
-        margin: 10px;
+        margin: 5%;
     }
     .top-r{
         margin-left: 16px;
@@ -35,26 +35,29 @@
     .para1{
         margin: 10%;
     }
-    .subscribe{
-    background-color:#eee;
+.subscribe{
+     background-color:#eee;
     height: 80px;
     text-align: center;
-    padding: 0% 15% 0% 15%;   
+    padding: 0% 15%;
     display: flex;
-    
+     font-size: 1rem;
+     width: 78vw;
 }
     #pin{
-        height: 20px;
-    margin-top: 29px;
-    margin-left: 20px;
+        width: 20%;
+    height: 25%;
+    margin-top: 1.5rem;
+    margin-left: 0.6rem;
     }
     .but{
-        height: 26px;
-    margin: 29px;
-    width: 155px;
+    width: 26%;
+    height: 32%;
+    margin: 1.5rem;
     background-color:#288acf;
     color: white;
     margin-left: 10px;
+    border: none;
     }
     .foot{
         display: flex;
@@ -70,6 +73,14 @@
     .box{
         width: 30%;
     }
+    
+    @media only screen and (max-width: 567px) {
+        .subscribe{
+    height: 4.5rem;
+     font-size: .6rem;
+}
+}
+    
 </style>
 <body>
     <!--below is master tag -->
@@ -119,7 +130,9 @@
         </div>
         <!-- end of class="duplicate" -->
         <div class="subscribe">
-            <h1>subscribe Us</h1>
+            <h1 class="subs" style="text-align: justify;
+            font-size: 1.75em;
+            margin-block: auto;">subscribe Us</h1>
             <input type="text" id="pin">
             <button class="but" href="#">SUBMIT</button>
         </div>
